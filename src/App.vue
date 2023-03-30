@@ -10,6 +10,9 @@
             <img class="headlogo" alt="logo" src="./assets/media/Logo-W.png" />
           </template>
         </div>
+        <div class="mainmenu row-left">
+          {{ $store.state.title }}
+        </div>
         <div class="settingmenu row-right">
           <el-row :gutter="0" justify="end" align="middle">
             <el-col :span="12"> </el-col>
